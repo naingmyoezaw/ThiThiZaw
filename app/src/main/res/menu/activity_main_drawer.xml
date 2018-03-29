@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    </group>
+    <item android:title="ဆရာမေလးအတြက္လက္ေဆာင္">
+        <menu>
+
+            <item android:id="@+id/song_id"
+                android:title="သီခ်င္းနားေထာင္ဖို့အတြက္"
+                android:titleCondensed="15"
+                android:icon="@drawable/ic_audiotrack_black_24dp"/>
+
+            <item android:id="@+id/photo_id"
+                android:title="ဓါတ္ပံုၾကည့္ဖို့အတြက္"
+                android:icon="@drawable/ic_photo_black_24dp"/>
+            <item android:id="@+id/video_id"
+                android:title="ဗီဒီယိုၾကည့္ဖို့အတြက္"
+                android:icon="@drawable/ic_ondemand_video_black_24dp"/>
+
+            <item android:id="@+id/present_id"
+                android:title="ဆရာမေလးအတြက္"
+                android:icon="@drawable/ic_favorite_border_black_24dp"/>
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="My About">
+
+            <menu>
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
